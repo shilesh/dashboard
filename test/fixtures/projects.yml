@@ -9,3 +9,8 @@ two:
   id: 2
   title: MyString2
   contact_email: MyString2
+
+three:
+  id: 3
+  title: MyString3
+  contact_email: MyString3

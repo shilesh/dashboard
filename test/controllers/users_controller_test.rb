@@ -45,4 +45,15 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to users_url
   end
+
+  test "show users using url" do
+    get user_url(User.first), headers: { "HTTP_REFERER" => "http://localhost:3000/users" }
+    assert_response :success
+  end
+
+  test "create user using url" do
+    post users_path, params: { user: { email: "Myemail4", type: "", uuid: "UUID4" } }, as: :json
+    assert_response :success
+  end
+
 end
