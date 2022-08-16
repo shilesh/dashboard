@@ -1,5 +1,4 @@
 
-
 # Reference
 https://github.com/sumoheavy/jira-ruby
 
@@ -26,6 +25,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ..
-DATE Aug 16
-.
+* ...
